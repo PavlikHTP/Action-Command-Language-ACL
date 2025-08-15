@@ -34,6 +34,8 @@ broadcast 5 Welcome, {PlayerName}!
 | `{Zone}` | `HeavyContainment` | Текущая зона игрока |
 | `{CurrentItem}` | `Flashlight` | Текущий предмет игрока |
 | `{ServerTime}` | `14:55:21` | Время сервера |
+| `{GroupColor}` | `#FF0000` | Цвет группы (HEX) |
+
 </details>
 
 

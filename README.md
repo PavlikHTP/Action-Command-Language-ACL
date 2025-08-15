@@ -31,6 +31,7 @@ broadcast 5 Welcome, {PlayerName}!
 | `{ArtificialHealth}` | `75` | Artificial здоровье |
 | `{Room}` | `LczStraight` | Текущая комната игрока |
 | `{Zone}` | `HeavyContainment` | Текущая зона игрока |
+| `{CurrentItem}` | `Flashlight` | Текущий предмет игрока |
 | `{RandomInt}` | `57` | Случайное число от 0 до 100 |
 
 ---
@@ -66,4 +67,4 @@ broadcast 5 "{PlayerName} has joined the game!"
 
 | Версия | Изменения |
 |--------|-----------|
-| 1.0.0 | Базовые плейсхолдеры: PlayerId, PlayerName, SteamId, DisplayName, CustomInfo, Role, Health, MaxHealth, ArtificialHealth, Room, Zone |
+| 1.0.0 | Базовые плейсхолдеры: PlayerId, PlayerName, SteamId, DisplayName, CustomInfo, Role, Health, MaxHealth, ArtificialHealth, Room, Zone, Flashlight |

@@ -34,6 +34,12 @@ broadcast 5 Welcome, {PlayerName}!
 | `{CurrentItem}` | `Flashlight` | Текущий предмет игрока |
 | `{ServerTime}` | `14:55:21` | Время сервера |
 | `{GroupColor}` | `#FF0000` | Цвет группы (HEX) |
+| `{IsAdmin}` | `true` | Есть ли у человека доступ к админ панели |
+| `{IsNoClipEnabled}` | `false` | Включен ли noclip |
+| `{IsBypassEnabled}` | `true` | Включен ли bypass |
+| `{IsMuted}` | `false` | Заглушен ли игрок |
+| `{IsDisarmed}` | `false` | Связан ли игрок |
+| `{IsInventoryFull}` | `true` | Забит ли полностью инвентарь игрока |
 
 </details>
 

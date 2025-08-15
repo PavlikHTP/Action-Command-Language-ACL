@@ -66,4 +66,4 @@ broadcast 5 "{PlayerName} has joined the game!"
 
 | Версия | Изменения |
 |--------|-----------|
-| 1.0.0 | Базовые плейсхолдеры: PlayerId, PlayerName, SteamId, DisplayName, CustomInfo, Role, Health, MaxHealth, RandomInt |
+| 1.0.0 | Базовые плейсхолдеры: PlayerId, PlayerName, SteamId, DisplayName, CustomInfo, Role, Health, MaxHealth, ArtificialHealth, Room, Zone |

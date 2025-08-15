@@ -28,6 +28,9 @@ broadcast 5 Welcome, {PlayerName}!
 | `{Role}` | `Scientist` | Роль игрока |
 | `{Health}` | `85` | Текущее здоровье игрока |
 | `{MaxHealth}` | `100` | Максимальное здоровье |
+| `{ArtificialHealth}` | `75` | Artificial здоровье |
+| `{Room}` | `LczStraight` | Текущая комната игрока |
+| `{Zone}` | `HeavyContainment` | Текущая зона игрока |
 | `{RandomInt}` | `57` | Случайное число от 0 до 100 |
 
 ---

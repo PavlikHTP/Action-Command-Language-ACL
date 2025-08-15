@@ -32,12 +32,6 @@ broadcast 5 Welcome, {PlayerName}!
 | `{Room}` | `LczStraight` | Текущая комната игрока |
 | `{Zone}` | `HeavyContainment` | Текущая зона игрока |
 | `{CurrentItem}` | `Flashlight` | Текущий предмет игрока |
-| `{RandomInt}` | `57` | Случайное число от 0 до 100 |
-| `{Date}` | `2025-08-15` | Текущая дата в формате YYYY-MM-DD |
-| `{Time}` | `14:32:10` | Текущее время |
-| `{UnixTime}` | `1692094330` | Unix-время (секунды с 1970) |
-| `{ServerName}` | `MyServer01` | Название сервера |
-| `{MapName}` | `Facility` | Название текущей карты |
 
 ---
 

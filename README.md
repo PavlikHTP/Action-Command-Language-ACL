@@ -72,22 +72,17 @@ broadcast 5 "{PlayerName:Upper} joined the game!"
 
 ## ⚡ Примеры
 
-**1. Сообщение игроку:**
-```
-hint {PlayerId} "Your HP: {Health}/{MaxHealth}"
-```
-
-**2. Выдача случайного предмета:**
+**1. Выдача случайного предмета:**
 ```
 give {PlayerId} item_{RandomInt}
 ```
 
-**3. Объявление для всех:**
+**2. Объявление для всех:**
 ```
 broadcast 5 "{PlayerName} has joined the game!"
 ```
 
-**4. Использование фильтра:**
+**3. Использование функции:**
 ```
 broadcast 5 "PLAYER: {PlayerName:Upper}"
 ```

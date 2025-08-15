@@ -32,6 +32,7 @@ broadcast 5 Welcome, {PlayerName}!
 | `{Room}` | `LczStraight` | Текущая комната игрока |
 | `{Zone}` | `HeavyContainment` | Текущая зона игрока |
 | `{CurrentItem}` | `Flashlight` | Текущий предмет игрока |
+| `{ServerTime}` | `14:55:21` | Время сервера |
 
 ---
 
@@ -89,4 +90,4 @@ broadcast 5 "PLAYER: {PlayerName:Upper}"
 
 | Версия | Изменения |
 |--------|-----------|
-| 1.0.0 | Базовые плейсхолдеры: PlayerId, PlayerName, SteamId, DisplayName, CustomInfo, Role, Health, MaxHealth, ArtificialHealth, Room, Zone, Flashlight |
+| 1.0.0 | Базовые плейсхолдеры: PlayerId, PlayerName, SteamId, DisplayName, CustomInfo, Role, Health, MaxHealth, ArtificialHealth, Room, Zone, CurrentItem, ServerTime |

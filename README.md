@@ -8,7 +8,7 @@
 Каждая команда - это обычная серверная команда с плейсхолдерами в фигурных скобках:  
 ```
 give {PlayerId} item_id
-broadcast 5 Welcome, {PlayerName}!
+pbc {PlayerId}. 5 Welcome, {PlayerName}!
 ```
 
 Перед выполнением, плагин заменит плейсхолдеры на их реальные значения.
@@ -60,7 +60,7 @@ broadcast 5 Welcome, {PlayerName}!
 Например:
   
 ```
-broadcast 5 "{PlayerName:Upper} joined the game!"
+pbc {PlayerId}. 5 "{PlayerName:Upper} joined the game!"
 ```
 
 **Доступные функции:**
@@ -79,7 +79,7 @@ broadcast 5 "{PlayerName:Upper} joined the game!"
 Например:
   
 ```
-broadcast 5 "PLAYER: {PlayerName:Remove(test)}"
+pbc {PlayerId}. 5 "PLAYER: {PlayerName:Remove(test)}"
 ```
 
 | Фильтр | Синтаксис | Пример | Результат |
@@ -99,15 +99,15 @@ broadcast 5 "PLAYER: {PlayerName:Remove(test)}"
 
 Пример:
 ```
-if({IsAdmin}) broadcast 5 "Welcome, mighty admin {PlayerName}!"
-else broadcast 5 "Welcome, {PlayerName}!"
+if({IsAdmin}) pbc {PlayerId}. 5 "Welcome, mighty admin {PlayerName}!"
+else pbc {PlayerId}. 5 "Welcome, {PlayerName}!"
 ```
 
 Можно использовать вложенные проверки:
 ```
 if({Role}==Scientist) give {PlayerId} medkit
 else if({Role}==ClassD) give {PlayerId} flashlight
-else broadcast 5 "Default spawn for {PlayerName}"
+else {PlayerId}. 5 "Default spawn for {PlayerName}"
 ```
 
 Поддерживаемые операции:

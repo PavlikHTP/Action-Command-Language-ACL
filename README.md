@@ -34,7 +34,7 @@ broadcast 5 Welcome, {PlayerName}!
 | `{CurrentItem}` | `Flashlight` | Предмет игрока в руках |
 | `{ServerTime}` | `14:55:21` | Время сервера |
 | `{GroupColor}` | `#FF0000` | Цвет группы (HEX) |
-| `{HumeShield}` | `25` |  | Щит SCP-127 |
+| `{HumeShield}` | `25` | Щит SCP-127 |
 | `{MaxHumeShield}` | `75` | Максимальный щит SCP-127 |
 
 </details>

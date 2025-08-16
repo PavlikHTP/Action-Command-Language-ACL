@@ -61,7 +61,7 @@ broadcast 5 "{PlayerName:Upper} joined the game!"
 ```
 
 **Доступные функции:**
-| Фильтр | Описание |
+| Функция | Описание |
 |--------|----------|
 | `Upper` | Перевод строки в верхний регистр |
 | `Lower` | Перевод строки в нижний регистр |
@@ -79,11 +79,12 @@ broadcast 5 "{PlayerName:Upper} joined the game!"
 broadcast 5 "PLAYER: {PlayerName:Remove(test)}"
 ```
 
-| Фильтр | Синтаксис | Пример | Результат |
+| Функция | Синтаксис | Пример | Результат |
 |--------|-----------|--------|-----------|
 | `Substring` | `{var:Substring(start,length)}` | `{Name:Substring(0,3)}` | `Joh` (из `John`) |
 | `Remove` | `{var:Remove(text)}` | `{Text:Remove(bad)}` | Удаляет подстроку |
 | `Replace` | `{var:Replace(old,new)}` | `{Role:Replace(Sci,Dr)}` | `Dr` вместо `Sci` |
+| `Zalgo`    | `{var:Zalgo}`                 | `{Name:Zalgo}`        | `J̿o͗h͛nͫ` (искажённый текст) |
 
 </details>
 

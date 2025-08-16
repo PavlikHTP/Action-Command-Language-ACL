@@ -133,5 +133,5 @@ else broadcast 5 "Default spawn for {PlayerName}"
 |--------|-----------|
 | 1.0.0 | Базовые плейсхолдеры: PlayerId, PlayerName, SteamId, DisplayName, CustomInfo, Role, Health, MaxHealth, ArtificialHealth, Room, Zone, CurrentItem, ServerTime |
 | 1.1.0 | Добавлены булевые плейсхолдеры (`IsAdmin`, `IsNoClipEnabled`, `IsBypassEnabled`, `IsMuted`, `IsDisarmed`, `IsInventoryFull`) |
-| 1.1.1 | Добавлены фильтры (`Trim`, `Reverse`, `Length`) и параметризованные (`Substring`, `Remove`, `Replace`) |
+| 1.1.1 | Добавлены функции (`Trim`, `Reverse`, `Length`) и параметризованные (`Substring`, `Remove`, `Replace`) |
 | 1.1.2 | Добавлен синтаксис `if(...) else ...` для условных команд |

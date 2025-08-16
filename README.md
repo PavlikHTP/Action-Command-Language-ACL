@@ -72,6 +72,10 @@ broadcast 5 "{PlayerName:Upper} joined the game!"
 
 <details>
 <summary>✨ Параметризованные функции</summary>
+  
+```
+broadcast 5 "PLAYER: {PlayerName:Upper}"
+```
 
 | Фильтр | Синтаксис | Пример | Результат |
 |--------|-----------|--------|-----------|
@@ -83,22 +87,6 @@ broadcast 5 "{PlayerName:Upper} joined the game!"
 
 ---
 
-## ⚡ Примеры
-
-**1. Выдача случайного предмета:**
-```
-give {PlayerId} item_{RandomInt}
-```
-
-**2. Объявление для всех:**
-```
-broadcast 5 "{PlayerName} has joined the game!"
-```
-
-**3. Использование функции:**
-```
-broadcast 5 "PLAYER: {PlayerName:Upper}"
-```
 
 ---
 

@@ -31,7 +31,7 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{ArtificialHealth}` | `75` | Artificial здоровье (AHP) |
 | `{Room}` | `LczStraight` \| `null` | Комната игрока *(может быть `null`)* |
 | `{Zone}` | `HeavyContainment` \| `null` | Зона игрока *(может быть `null`)* |
-| `{CurrentItem}` | `Flashlight` | Предмет игрока в руках |
+| `{CurrentItem}` | `Flashlight` \| `null` | Предмет игрока в руках |
 | `{ServerTime}` | `14:55:21` | Время сервера |
 | `{GroupColor}` | `#FF0000` | Цвет группы (HEX) |
 | `{HumeShield}` | `25` |  Щит SCP-127 |

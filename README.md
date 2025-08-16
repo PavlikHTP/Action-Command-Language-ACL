@@ -25,7 +25,7 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{SteamId}` | `76561198000000000` | Steam ID игрока |
 | `{DisplayName}` | `Павел Техников` | Отображаемое имя игрока |
 | `{CustomInfo}` | `MTF` | Дополнительная информация |
-| `{Role}` | `Scientist` | Роль игрока |
+| `{RoleTypeId}` | `Scientist` | Роль игрока |
 | `{Health}` | `85` | Текущее здоровье игрока |
 | `{MaxHealth}` | `100` | Максимальное здоровье |
 | `{ArtificialHealth}` | `75` | Artificial здоровье (AHP) |

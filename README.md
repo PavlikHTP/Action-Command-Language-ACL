@@ -1,4 +1,4 @@
-# Action Command Language (ACL) v1.1.2
+# Action Command Language (ACL) v1.1.3
 
 **Action Command Language** - расширенный язык команд для динамической подстановки данных с поддержкой параметризованных фильтров.
 
@@ -29,13 +29,15 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{Health}` | `85` | Текущее здоровье игрока |
 | `{MaxHealth}` | `100` | Максимальное здоровье |
 | `{ArtificialHealth}` | `75` | Artificial здоровье (AHP) |
-| `{Room}` | `LczStraight` \| `null` | Комната игрока *(может быть `null`)* |
-| `{Zone}` | `HeavyContainment` \| `null` | Зона игрока *(может быть `null`)* |
+| `{Room}` | `LczStraight` \| `null` | Комната игрока |
+| `{Zone}` | `HeavyContainment` \| `null` | Зона игрока |
 | `{CurrentItem}` | `Flashlight` \| `null` | Предмет игрока в руках |
 | `{ServerTime}` | `14:55:21` | Время сервера |
 | `{GroupColor}` | `#FF0000` | Цвет группы (HEX) |
 | `{HumeShield}` | `25` |  Щит SCP-127 |
 | `{MaxHumeShield}` | `100` | Максимальный щит SCP-127 |
+| `{GameObject}` | `-` | GameObject игрока |
+| `{GroupName}` | `Владелец проекта` \| `null ` | Название группы |
 
 </details>
 
@@ -51,6 +53,9 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{IsDisarmed}` | `false` | Связан ли игрок |
 | `{IsInventoryFull}` | `true` | Полон ли инвентарь |
 | `{IsIntercomMuted}` | `true` | Заглушен ли intercom у игрока |
+| `{DoNotTrack}` | `false` | Доступен ли IP игрока |
+| `{HasReservedSlot}` | `true` | Имеется ли доп. слот у игрока |
+| `{IsOutOfAmmo}` | `true` | Закончились ли патроны у игрока |
 
 </details>
 
@@ -64,7 +69,7 @@ pbc {PlayerId}. 5 "{PlayerName:Upper} joined the game!"
 ```
 
 **Доступные функции:**
-| Фильтр | Описание |
+| Функция | Описание |
 |--------|----------|
 | `Upper` | Перевод строки в верхний регистр |
 | `Lower` | Перевод строки в нижний регистр |
@@ -82,12 +87,13 @@ pbc {PlayerId}. 5 "{PlayerName:Upper} joined the game!"
 pbc {PlayerId}. 5 "PLAYER: {PlayerName:Remove(test)}"
 ```
 
-| Фильтр | Синтаксис | Пример | Результат |
+| Функция | Синтаксис | Пример | Результат |
 |--------|-----------|--------|-----------|
 | `Substring` | `{var:Substring(start,length)}` | `{Name:Substring(0,3)}` | `Joh` (из `John`) |
 | `Remove` | `{var:Remove(text)}` | `{Text:Remove(bad)}` | Удаляет подстроку |
 | `Replace` | `{var:Replace(old,new)}` | `{Role:Replace(Sci,Dr)}` | `Dr` вместо `Sci` |
-| `Zalgo`    | `{var:Zalgo}`                 | `{Name:Zalgo}`        | `J̿o͗h͛nͫ` (искажённый текст) |
+| `Zalgo`    | `{var:Zalgo}`  | `{Name:Zalgo}`        | `J̿o͗h͛nͫ` (искажённый текст) |
+| `Contains`    | `{var:Contains(text)}`  | `{Text:Contains(abc)}`        | `true/false` |
 
 </details>
 

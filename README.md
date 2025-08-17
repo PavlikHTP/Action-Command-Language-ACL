@@ -52,10 +52,13 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{IsMuted}` | `false` | Заглушен ли игрок |
 | `{IsDisarmed}` | `false` | Связан ли игрок |
 | `{IsInventoryFull}` | `true` | Полон ли инвентарь |
+| `{IsWithoutItems}` | `true` | Пуст ли инвентарь |
 | `{IsIntercomMuted}` | `true` | Заглушен ли intercom у игрока |
 | `{DoNotTrack}` | `false` | Доступен ли IP игрока |
 | `{HasReservedSlot}` | `true` | Имеется ли доп. слот у игрока |
 | `{IsOutOfAmmo}` | `true` | Закончились ли патроны у игрока |
+| `{IsSpeaking}` | `false` | Говорит ли игрок |
+| `{IsUsingRadio}` | `false` | Говорит ли игрок в рацию сейчас |
 
 </details>
 

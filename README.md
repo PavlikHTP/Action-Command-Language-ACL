@@ -1,4 +1,4 @@
-# Action Command Language (ACL) v1.1.3
+# Action Command Language (ACL) v1.1.3.1
 
 **Action Command Language** - расширенный язык команд для динамической подстановки данных с поддержкой параметризованных фильтров.
 
@@ -57,9 +57,17 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 
 | Плейсхолдер | Пример | Описание |
 |-------------|--------|----------|
+| `{IsFriendlyFireEnabled}` | `true` | Включен ли ФФ (Урон по своим) |
+| `{IsLobbyLocked}` | `false` | Включен ли LobbyLock |
+| `{IsRoundLocked}` | `true` | Включен ли RoundLock |
+| `{IsRoundStarted}` | `true` | Начат ли раунд |
+| `{IsRoundInProgress}` | `false` | Идет ли сейчас раунд |
+| `{IsRoundEnded}` | `false` | Закончился ли раунд |
+
 | `{IsAdmin}` | `true` | Есть ли у игрока доступ к админ панели |
 | `{IsNoClipEnabled}` | `false` | Включен ли noclip |
 | `{IsBypassEnabled}` | `true` | Включен ли bypass |
+| `{IsGodModeEnabled}` | `true` | Включен ли godmode |
 | `{IsMuted}` | `false` | Заглушен ли игрок |
 | `{IsDisarmed}` | `false` | Связан ли игрок |
 | `{IsInventoryFull}` | `true` | Полон ли инвентарь |

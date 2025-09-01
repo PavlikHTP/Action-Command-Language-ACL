@@ -63,7 +63,6 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{IsRoundStarted}` | `true` | Начат ли раунд |
 | `{IsRoundInProgress}` | `false` | Идет ли сейчас раунд |
 | `{IsRoundEnded}` | `false` | Закончился ли раунд |
-
 | `{IsAdmin}` | `true` | Есть ли у игрока доступ к админ панели |
 | `{IsNoClipEnabled}` | `false` | Включен ли noclip |
 | `{IsBypassEnabled}` | `true` | Включен ли bypass |

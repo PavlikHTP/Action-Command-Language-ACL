@@ -227,6 +227,8 @@ clipName, volume, isSpatial (bool), loop (bool)
 | `Destroy` | `this` \| `parent` | Уничтожает **`this`** (сам объект) или **`parent`** (родительский объект). |
 | `PlayAudio` | `clipName` \| `volume` \| `isSpatial (bool)` \| `loop (bool)` | Проигрывает звук в позиции объекта. |
 | `StopAudio` | `audioPlayerName` | Останавливает звук по имени, если он существует. |
+| `AttachToPlayer` | `PlayerId` | Привязывает объект к человеку. |
+| `Detach` | `null` | Отвязывает текущий привязанный Action от человека. |
 </details>
 
 ---

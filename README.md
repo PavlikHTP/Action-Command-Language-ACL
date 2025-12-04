@@ -27,7 +27,8 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{PlayerName}` | `Greetings` | Ник игрока (Steam) |
 | `{SteamId}` | `76561198000000000` | Steam ID игрока |
 | `{DisplayName}` | `Павел Техников` | Отображаемое имя игрока |
-| `{CustomInfo}` | `Scientist` | Текущая команда игрока (Team) |
+| `{CustomInfo}` | `Scientist` | Отображаемое Cinfo |
+| `{Team}` | `Dead` | Команда игрока |
 | `{Role}` | `Scientist` | Роль игрока |
 | `{Health}` | `85` | Текущее здоровье игрока |
 | `{MaxHealth}` | `100` | Максимальное здоровье |

@@ -28,6 +28,8 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{SteamId}` | `76561198000000000` | Steam ID игрока |
 | `{DisplayName}` | `Павел Техников` | Отображаемое имя игрока |
 | `{CustomInfo}` | `Scientist` | Отображаемое Cinfo |
+| `{Stamina}` | `25` | Текущее значение стамины |
+| `{MaxStamina}` | `100` | Максимальное количество стамины |
 | `{Team}` | `Dead` | Команда игрока |
 | `{Role}` | `Scientist` | Роль игрока |
 | `{Health}` | `85` | Текущее здоровье игрока |
@@ -41,6 +43,7 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{MaxHumeShield}` | `100` | Максимальный щит SCP-127 |
 | `{GameObject}` | `-` | GameObject игрока |
 | `{GroupName}` | `Владелец проекта` \| `null ` | Название группы |
+| `{CurrentEmotion}` | `Angry` | Текущий тип эмоции игрока |
 
 ### Server
 
@@ -79,7 +82,8 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{HasReservedSlot}` | `true` | Имеется ли доп. слот у игрока |
 | `{IsOutOfAmmo}` | `true` | Закончились ли патроны у игрока |
 | `{IsSpeaking}` | `false` | Говорит ли игрок |
-| `{IsUsingRadio}` | `false` | Говорит ли игрок в рацию сейчас |
+| `{IsUsingRadio}` | `false` | Говорит ли игрок на данный момент в рацию |
+| `{IsBadgeHidden}` | `true` | Скрыт ли BADGE игрока |
 
 </details>
 

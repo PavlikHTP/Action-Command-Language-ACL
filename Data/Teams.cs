@@ -1,4 +1,4 @@
-public enum Team : byte
+public enum Teams : byte
 {
     SCPs,
     FoundationForces,
@@ -9,3 +9,4 @@ public enum Team : byte
     OtherAlive,
     Flamingos,
 }
+

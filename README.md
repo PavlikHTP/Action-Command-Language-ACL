@@ -233,7 +233,7 @@ clipName, volume, isSpatial (bool), loop (bool)
 | `StopAudio` | `audioPlayerName` | Останавливает звук по имени, если он существует. |
 | `AttachToPlayer` | `PlayerId` | Привязывает объект к человеку. |
 | `DetachById` | `attachmentId` | Отвязывает объект и удаляет его из реестра по полному ID привязки (который был создан при AttachToPlayer). Объект не уничтожается, а его parent устанавливается в null. |
-| `DetachByObject` | `playerId` \| `objectId` | Отвязывает объект по ID игрока и ID объекта. Формирует attachmentId как "{playerId}_{objectId}", находит привязанный объект, а затем УНИЧТОЖАЕТ его, используя NetworkServer.Destroy (если это сетевой объект) или GameObject.Destroy. |
+| `DetachByObject` | `playerId` \| `objectId` | Отвязывает объект по ID игрока и ID объекта. Формирует attachmentId как "{playerId}_{objectId}", находит привязанный объект, а затем УНИЧТОЖАЕТ его. |
 </details>
 
 ---

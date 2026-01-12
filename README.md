@@ -43,7 +43,6 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{MaxHumeShield}` | `100` | Максимальный щит SCP-127 |
 | `{GameObject}` | `-` | GameObject игрока |
 | `{GroupName}` | `Владелец проекта` \| `null ` | Название группы |
-| `{CurrentEmotion}` | `Angry` | Текущий тип эмоции игрока |
 
 ### Server
 
@@ -83,7 +82,6 @@ pbc {PlayerId}. 5 Welcome, {PlayerName}!
 | `{IsOutOfAmmo}` | `true` | Закончились ли патроны у игрока |
 | `{IsSpeaking}` | `false` | Говорит ли игрок |
 | `{IsUsingRadio}` | `false` | Говорит ли игрок на данный момент в рацию |
-| `{IsBadgeHidden}` | `true` | Скрыт ли BADGE игрока |
 
 </details>
 

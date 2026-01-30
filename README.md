@@ -226,12 +226,13 @@ clipName, volume, isSpatial (bool), loop (bool)
 **Доступные методы:**
 | Метод | Аргументы | Описание |
 |---|---|---|
-| `Destroy` | `this` \| `parent` | Уничтожает **`this`** (сам объект) или **`parent`** (родительский объект). |
+| `Destroy` | `target` | Уничтожает **`this`** (сам объект) или **`parent`** (родительский объект). |
 | `PlayAudio` | `clipName` \| `volume` \| `isSpatial (bool)` \| `loop (bool)` | Проигрывает звук в позиции объекта. |
 | `StopAudio` | `audioPlayerName` | Останавливает звук по имени, если он существует. |
 | `AttachToPlayer` | `PlayerId` | Привязывает объект к человеку. |
 | `DetachById` | `attachmentId` | Отвязывает объект и удаляет его из реестра по полному ID привязки (который был создан при AttachToPlayer). Объект не уничтожается, а его parent устанавливается в null. |
 | `DetachByObject` | `playerId` \| `objectId` | Отвязывает объект по ID игрока и ID объекта. Формирует attachmentId как "{playerId}_{objectId}", находит привязанный объект, а затем УНИЧТОЖАЕТ его. |
+| `AddGravity` | `target` \| `time (float)` \|  `weight (float)` \|  `mode (CollisionDetectionModes)` | Включает физику для указанного объекта (this/parent) на заданное время, устанавливает массу и режим обсчета столкновений (0-3).
 </details>
 
 ---

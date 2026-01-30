@@ -234,7 +234,7 @@ clipName, volume, isSpatial (bool), loop (bool)
 | `DetachByObject` | `playerId` \| `objectId` | Отвязывает объект по ID игрока и ID объекта. Формирует attachmentId как "{playerId}_{objectId}", находит привязанный объект, а затем УНИЧТОЖАЕТ его. |
 | `AddGravity` | `target` \| `time (float)` \|  `weight (float)` \|  `mode (CollisionDetectionModes)` | Включает физику для указанного объекта (this/parent) на заданное время, устанавливает массу и режим обсчета столкновений (0-3).
 | `LookAt` | `target` \| `mode` | Поворачивает объект (this/parent) лицом к цели. mode: ID игрока, `closest` (ближайший), `farthest` (дальний) или `random` (случайный) |
-| `LookAtWhile` | `target` \| `mode` \| `duration (float)`  \| `maxDist (float)` \| `onlyVisible (bool)` | Поворачивает объект (this/parent) лицом к цели (циклично). mode: ID игрока, `closest` (ближайший), `farthest` (дальний) или `random` (случайный) |
+| `LookAtWhile` | `target` \| `mode` \| `duration (float)`  \| `maxDist (float)` \| `onlyVisible (bool)` \| `rotate speed` \| `axis` | Поворачивает объект (this/parent) лицом к цели (циклично). mode: ID игрока, `closest` (ближайший), `farthest` (дальний) или `random` (случайный) |
 </details>
 
 ---

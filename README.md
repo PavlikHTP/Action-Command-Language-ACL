@@ -235,7 +235,7 @@ clipName, volume, isSpatial (bool), loop (bool)
 | `AddGravity` | `target` \| `time (float)` \|  `weight (float)` \|  `mode (CollisionDetectionModes)` | Включает физику для указанного объекта (this/parent) на заданное время, устанавливает массу и режим обсчета столкновений (0-3).
 | `LookAt` | `target` \| `mode` | Поворачивает объект (this/parent) лицом к цели. mode: ID игрока, `closest` (ближайший), `farthest` (дальний) или `random` (случайный) |
 | `LookAtWhile` | `target` \| `mode` \| `duration (float)`  \| `maxDist (float)` \| `onlyVisible (bool)` \| `rotate speed (float)` \| `axis` | Поворачивает объект (this/parent) лицом к цели (циклично). mode: ID игрока, `closest` (ближайший), `farthest` (дальний) или `random` (случайный) |
-| `OrbitAround` | `target` \| `mode` \| `radius (float)` \| `speed (float)` \| `heightOffset (float)` \|`duration (float)` | Заставляет объект (this/parent) летать по кругу вокруг цели. `radius`: дистанция от цели, `speed`: скорость вращения, `heightOffset`: высота относительно ног игрока. Поддерживает динамическую смену цели: ID игрока, `closest` (ближайший), `farthest` (дальний) или `random` (случайный).
+| `OrbitAround` | `target (this/parent)` \| `mode` \| `radius (float)` \| `speed (float)` \| `height (float)` \| `duration (float)` \| `type (horizontal/vertical/random)` | Заставляет объект летать вокруг цели.
 </details>
 
 ---
